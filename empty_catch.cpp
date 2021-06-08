@@ -2,6 +2,8 @@
 #include <iostream> 
 using namespace std; 
   
+int global_var;
+
 int main() 
 { 
    int x = -1; 
