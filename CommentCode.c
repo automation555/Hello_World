@@ -22,6 +22,7 @@ void func( void )
 	if ( x )
 	{
 		++x; /* This is always executed */
+		if(x)
 		printf("******");
 	}
 }
