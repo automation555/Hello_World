@@ -22,6 +22,7 @@ void func( void )
 	if ( x )
 	{
 		++x; /* This is always executed */
+		printf("******");
 	}
 }
 /* end of R_20_08.c */
